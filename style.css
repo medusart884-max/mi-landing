@@ -10,6 +10,17 @@
 /* ================= HERO ================= */
 
 .hero {
+  background: linear-gradient(rgba(0, 0, 40, 0.6), rgba(0, 0, 40, 0.6)), 
+              url("imagenes/eolico.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 10%;
+}
+
     height: 100vh;
     background-image: linear-gradient(
         rgba(0, 0, 40, 0.6),
