@@ -1,257 +1,57 @@
 /* ================= RESET ================= */
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-body {
-  background-color: #f4f4f4;
-  color: #1f2d5a;
-}
-
-/* ================= NAVBAR ================= */
-.navbar {
-  background: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 8%;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
-
-.navbar img {
-  height: 35px;
-}
-
-.nav-links {
-  display: flex;
-  gap: 40px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #1f2d5a;
-  font-size: 15px;
-  font-weight: 500;
-  transition: 0.3s;
-}
-
-.nav-links a:hover {
-  color: #f47b20;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ================= HERO ================= */
+
 .hero {
-  height: 100vh;
-  background: linear-gradient(rgba(10,25,60,0.65), rgba(10,25,60,0.65)),
-              url("imagenes/eolico.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  padding: 0 8%;
-  color: white;
-  position: relative;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 40, 0.6),
+        rgba(0, 0, 40, 0.6)
+    ),
+    url("img/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
 }
 
 .hero-content {
-  max-width: 550px;
-  margin-top: 60px;
+    max-width: 600px;
 }
 
 .hero h1 {
-  font-size: 3.3rem;
-  line-height: 1.2;
-  margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
 }
 
 .hero p {
-  font-size: 1rem;
-  margin-bottom: 30px;
-  line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
-/* Botón principal */
-.btn {
-  background-color: #f47b20;
-  padding: 14px 28px;
-  border-radius: 6px;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 5px 12px rgba(0,0,0,0.3);
-  transition: 0.3s ease;
+/* ================= BOTÓN ================= */
+
+.btn-naranja {
+    background-color: #f37021;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
-.btn:hover {
-  background-color: #d86412;
-  transform: translateY(-3px);
-}
-
-/* Botón Play */
-.play-btn {
-  position: absolute;
-  right: 18%;
-  width: 90px;
-  height: 90px;
-  background: white;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-}
-
-/* ================= FONDO PAPEL ================= */
-.seccion-papel {
-  background: url("imagenes/papel.jpg");
-  background-size: cover;
-  padding: 90px 8%;
-}
-
-/* ================= QUIÉNES SOMOS ================= */
-.sobre-nosotros {
-  margin-bottom: 70px;
-}
-
-.sobre-nosotros h2 {
-  font-size: 2.1rem;
-  margin-bottom: 20px;
-}
-
-.sobre-nosotros p {
-  max-width: 600px;
-  line-height: 1.7;
-  font-size: 1rem;
-}
-
-/* Tarjetas */
-.cards {
-  display: flex;
-  gap: 40px;
-  margin-top: 40px;
-}
-
-.card {
-  background: #2f3d75;
-  color: white;
-  padding: 30px;
-  width: 190px;
-  text-align: center;
-  border-radius: 6px;
-}
-
-.card img {
-  height: 50px;
-  margin-bottom: 15px;
-}
-
-/* Caja derecha */
-.info-box {
-  background: #3b4b8f;
-  color: white;
-  padding: 30px;
-  border-radius: 8px;
-  max-width: 380px;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-}
-
-/* ================= QUE HACEMOS ================= */
-.que-hacemos {
-  background: #d8dbe4;
-  padding: 90px 8%;
-  display: flex;
-  gap: 60px;
-  align-items: center;
-}
-
-.que-hacemos img {
-  width: 420px;
-  border-radius: 6px;
-}
-
-.texto-que-hacemos {
-  max-width: 500px;
-}
-
-.texto-que-hacemos h2 {
-  margin-bottom: 20px;
-}
-
-.texto-que-hacemos p {
-  margin-bottom: 15px;
-  line-height: 1.6;
-}
-
-/* Servicios */
-.servicios {
-  display: grid;
-  grid-template-columns: repeat(2, 150px);
-  gap: 50px;
-  margin-top: 20px;
-}
-
-.servicio {
-  text-align: center;
-  font-weight: 500;
-}
-
-.servicio img {
-  height: 50px;
-  margin-bottom: 10px;
-}
-
-/* ================= SOSTENIBILIDAD ================= */
-.sostenibilidad {
-  padding: 90px 8%;
-  background: url("imagenes/papel.jpg");
-  background-size: cover;
-}
-
-.sostenibilidad-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px;
-}
-
-.sostenibilidad img {
-  width: 350px;
-}
-
-/* ================= FOOTER ================= */
-.footer {
-  background: #2f3d75;
-  color: white;
-  padding: 20px 8%;
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  font-size: 14px;
-}
-
-/* ================= RESPONSIVE ================= */
-@media (max-width: 900px) {
-
-  .cards {
-    flex-direction: column;
-  }
-
-  .que-hacemos {
-    flex-direction: column;
-  }
-
-  .sostenibilidad-content {
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .hero h1 {
-    font-size: 2.3rem;
-  }
+.btn-naranja:hover {
+    background-color: #d85c10;
 }
