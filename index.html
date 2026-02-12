@@ -1,125 +1,147 @@
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Medusart | Diseño</title>
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-    }
-
-    /* HEADER */
-    .header {
-      background: #e9edf3;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 60px;
-    }
-
-    .logo {
-      font-weight: bold;
-      font-size: 20px;
-      color: #1e2b5c;
-    }
-
-    .nav a {
-      margin-left: 25px;
-      text-decoration: none;
-      color: #1e2b5c;
-      font-size: 14px;
-    }
-
-    /* HERO */
-    .hero {
-      height: 90vh;
-      background-image: url("https://images.unsplash.com/photo-1509395176047-4a66953fd231");
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      padding-left: 60px;
-      color: white;
-    }
-
-    .hero-content {
-      max-width: 500px;
-    }
-
-    .hero h1 {
-      font-size: 48px;
-      line-height: 1.2;
-      margin-bottom: 20px;
-    }
-
-    .hero p {
-      font-size: 16px;
-      margin-bottom: 30px;
-    }
-
-    .btn-primary {
-      background: #f57c00;
-      color: white;
-      border: none;
-      padding: 12px 24px;
-      border-radius: 6px;
-      font-size: 14px;
-      cursor: pointer;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repsol Energía</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
-    <div class="logo">MEDUSART</div>
-    <nav class="nav">
-      <a href="#">Inicio</a>
-      <a href="#">Servicios</a>
-      <a href="#">Proyectos</a>
-      <a href="#">Contacto</a>
+<!-- ================= HEADER ================= -->
+
+<header>
+    <nav>
+        <div class="logo">
+            <img src="img/logo-repsol.png" alt="Logo Repsol">
+        </div>
+
+        <ul class="menu">
+            <li><a href="#quienes">¿Quiénes somos?</a></li>
+            <li><a href="#quehacemos">¿Qué hacemos?</a></li>
+            <li><a href="#sostenibilidad">Sostenibilidad e innovación</a></li>
+            <li><a href="#contacto">Contactos</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
+<!-- ================= HERO ================= -->
+
+<section class="hero">
     <div class="hero-content">
-      <h1>Diseño que comunica,<br>impacta y transforma</h1>
-      <p>Creación de experiencias visuales modernas y estratégicas para marcas que quieren destacar.</p>
-      <button class="btn-primary">Ver proyectos</button>
-    </div>
-  </section>
-<!-- QUIÉNES SOMOS -->
-<section id="quienes" class="about">
-  <div class="about-container">
+        <h1>Energía que impulsa el presente y construye el futuro</h1>
+        <p>
+            Soluciones energéticas innovadoras, eficientes y responsables con el medio ambiente.
+        </p>
 
-    <div class="about-text">
-      <h2>¿Quiénes somos?</h2>
-      <p>
-        Somos una compañía energética global e integrada, presente
-        en toda la cadena de valor de la energía. Apostamos por la innovación
-        y la sostenibilidad como pilares fundamentales para afrontar
-        los retos energéticos del futuro.
-      </p>
+        <a href="#quienes" class="btn-naranja">Conoce más</a>
     </div>
-
-    <div class="about-box">
-      <p>Operamos en múltiples países, aportando soluciones energéticas adaptadas a cada contexto.</p>
-      <p>Invertimos en tecnología y conocimiento para desarrollar energías más limpias y eficientes.</p>
-      <p>Trabajamos activamente para reducir emisiones y proteger el entorno.</p>
-    </div>
-
-  </div>
 </section>
+
+<!-- ================= QUIENES SOMOS ================= -->
+
+<section id="quienes" class="quienes">
+    <h2>¿Quiénes somos?</h2>
+
+    <p>
+        Repsol es una compañía energética global e integrada, presente en toda la cadena de valor de la energía.
+        Apostamos por la innovación y la sostenibilidad como pilares fundamentales para afrontar los retos energéticos del futuro.
+    </p>
+
+    <div class="iconos">
+        <div class="card">
+            <h3>Presencia Global</h3>
+        </div>
+
+        <div class="card">
+            <h3>Innovación</h3>
+        </div>
+
+        <div class="card">
+            <h3>Compromiso Ambiental</h3>
+        </div>
+    </div>
+
+    <div class="info-extra">
+        <p>Operamos en múltiples países, aportando soluciones energéticas adaptadas a cada contexto.</p>
+        <p>Invertimos en tecnología y conocimiento para desarrollar energías más limpias y eficientes.</p>
+        <p>Trabajamos activamente para reducir emisiones y proteger el entorno.</p>
+    </div>
+</section>
+
+<!-- ================= QUE HACEMOS ================= -->
+
+<section id="quehacemos" class="quehacemos">
+    <h2>¿Qué hacemos?</h2>
+
+    <div class="contenido-quehacemos">
+
+        <div class="texto">
+            <p>
+                En Repsol desarrollamos y ofrecemos soluciones energéticas integrales que responden a las necesidades actuales de las personas, las empresas y la sociedad.
+            </p>
+
+            <p>
+                Trabajamos en toda la cadena de valor de la energía, desde la producción hasta el consumo final, impulsando proyectos que integran energías tradicionales, energías renovables y nuevas tecnologías.
+            </p>
+
+            <p>
+                Nuestro compromiso es garantizar un suministro energético seguro, eficiente y sostenible.
+            </p>
+        </div>
+
+        <div class="servicios">
+            <div class="servicio">Combustible</div>
+            <div class="servicio">Gas</div>
+            <div class="servicio">Energía</div>
+            <div class="servicio">Lubricantes</div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= SOSTENIBILIDAD ================= -->
+
+<section id="sostenibilidad" class="sostenibilidad">
+
+    <h2>Sostenibilidad</h2>
+
+    <div class="bloque-sostenibilidad">
+        <div class="texto">
+            <h3>Compromiso con la sostenibilidad</h3>
+            <p>
+                Nuestro objetivo es liderar la transición energética, reduciendo el impacto ambiental y contribuyendo al bienestar de las comunidades donde operamos.
+            </p>
+        </div>
+    </div>
+
+    <div class="bloque-innovacion">
+        <h2>Innovación</h2>
+        <h3>Innovación que transforma la energía</h3>
+        <p>
+            La investigación y el desarrollo son motores clave de nuestra estrategia.
+            Apostamos por nuevas tecnologías que nos permitan avanzar hacia un modelo energético más sostenible y eficiente.
+        </p>
+    </div>
+
+</section>
+
+<!-- ================= CONTACTO ================= -->
+
+<section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+
+    <p>Repsol Colombia</p>
+    <p>Instagram: @Repsol_Colombia</p>
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+    <p>© 2026 Repsol - Proyecto Académico</p>
+</footer>
 
 </body>
 </html>
