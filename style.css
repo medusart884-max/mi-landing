@@ -1,61 +1,59 @@
-<section class="hero">
-    <div class="hero-content">
-        <h1>Energía que impulsa el presente y construye el futuro</h1>
-        <p>
-            Soluciones energéticas innovadoras, eficientes y responsables con el medio ambiente.
-        </p>
-        <a href="#" class="btn-naranja">Conoce más</a>
-    </div>
-</section>
-/* Centrar mejor en pantallas grandes */
-.hero {
-    padding-left: 10%;
+/* ================= RESET ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Mejorar lectura */
+/* ================= HERO ================= */
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 40, 0.6),
+        rgba(0, 0, 40, 0.6)
+    ),
+    url("img/gero.jpg") no-repeat center center;
+
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
 .hero h1 {
-    text-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
 }
 
 .hero p {
-    text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
 }
 
-/* Botón más profesional */
+/* ================= BOTÓN ================= */
+
 .btn-naranja {
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    background-color: #f37021;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
 }
 
 .btn-naranja:hover {
+    background-color: #d85c10;
     transform: translateY(-3px);
-}
-<section class="quienes">
-    <div class="container">
-        <h2>¿Quiénes somos?</h2>
-        <p>
-            Repsol es una compañía energética global e integrada,
-            presente en toda la cadena de valor de la energía.
-            Apostamos por la innovación y la sostenibilidad como pilares
-            fundamentales para afrontar los retos energéticos del futuro.
-        </p>
-    </div>
-</section>
-/* ================= QUIÉNES SOMOS ================= */
-
-.quienes {
-    padding: 80px 10%;
-    background-color: #f4f4f4;
-}
-
-.quienes h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: #002b5c;
-}
-
-.quienes p {
-    max-width: 800px;
-    line-height: 1.6;
-    font-size: 18px;
-    color: #333;
 }
