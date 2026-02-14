@@ -253,6 +253,74 @@
     font-size:16px;
     font-weight:600;
 }
+/* ================= SOSTENIBILIDAD ================= */
+
+.sostenibilidad{
+    background-image: url("img/fondo-textura.jpg");
+    background-size: cover;
+    padding:100px 80px;
+    color:#1c2b5a;
+}
+
+/* Parte superior */
+
+.sostenibilidad-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:80px;
+}
+
+.sost-texto{
+    width:50%;
+}
+
+.sost-texto h2{
+    margin-bottom:10px;
+}
+
+.sost-texto h3{
+    margin-bottom:15px;
+    font-weight:500;
+}
+
+.sost-texto p{
+    line-height:1.6;
+}
+
+.sost-mapa img{
+    width:400px;
+}
+
+/* Parte inferior */
+
+.innovacion-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+
+.innovacion-img img{
+    width:400px;
+}
+
+.innovacion-texto{
+    width:50%;
+}
+
+.innovacion-texto h2{
+    margin-bottom:10px;
+}
+
+.innovacion-texto h3{
+    margin-bottom:15px;
+    font-weight:500;
+}
+
+.innovacion-texto p{
+    line-height:1.6;
+}
 
 
 
