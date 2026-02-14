@@ -194,6 +194,65 @@
 .info-box p{
     margin-bottom:20px;
 }
+/* ================= QUE HACEMOS ================= */
+
+.quehacemos{
+    background:#d9dbe2;
+    padding:100px 80px;
+}
+
+.quehacemos-container{
+    display:flex;
+    gap:60px;
+    align-items:flex-start;
+}
+
+.qh-imagen img{
+    width:350px;
+    height:auto;
+}
+
+.qh-texto{
+    width:35%;
+    color:#1c2b5a;
+    line-height:1.6;
+}
+
+.qh-texto p{
+    margin-bottom:25px;
+}
+
+.qh-servicios{
+    width:25%;
+}
+
+.qh-servicios h2{
+    color:#1c2b5a;
+    margin-bottom:30px;
+}
+
+.grid-servicios{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    border-top:2px solid #1c2b5a;
+    border-left:2px solid #1c2b5a;
+}
+
+.servicio{
+    border-right:2px solid #1c2b5a;
+    border-bottom:2px solid #1c2b5a;
+    padding:40px 20px;
+    text-align:center;
+    font-size:40px;
+    color:#1c2b5a;
+}
+
+.servicio span{
+    display:block;
+    margin-top:15px;
+    font-size:16px;
+    font-weight:600;
+}
 
 
 
