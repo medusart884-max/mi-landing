@@ -29,3 +29,33 @@
 .btn-naranja:hover {
     transform: translateY(-3px);
 }
+<section class="quienes">
+    <div class="container">
+        <h2>¿Quiénes somos?</h2>
+        <p>
+            Repsol es una compañía energética global e integrada,
+            presente en toda la cadena de valor de la energía.
+            Apostamos por la innovación y la sostenibilidad como pilares
+            fundamentales para afrontar los retos energéticos del futuro.
+        </p>
+    </div>
+</section>
+/* ================= QUIÉNES SOMOS ================= */
+
+.quienes {
+    padding: 80px 10%;
+    background-color: #f4f4f4;
+}
+
+.quienes h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #002b5c;
+}
+
+.quienes p {
+    max-width: 800px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333;
+}
