@@ -122,4 +122,76 @@
     z-index:2;
     cursor:pointer;
 }
+/* ================= QUIENES SOMOS ================= */
+
+.quienes{
+    background-image: url("img/fondo-textura.jpg");
+    background-size: cover;
+    background-position: center;
+    padding:100px 80px;
+}
+
+.quienes-container{
+    display:flex;
+    justify-content:space-between;
+    gap:60px;
+}
+
+.quienes-izquierda{
+    width:60%;
+}
+
+.quienes h2{
+    color:#1c2b5a;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.quienes p{
+    color:#1c2b5a;
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:flex;
+    gap:25px;
+}
+
+.card{
+    background:#2c3e7a;
+    width:160px;
+    height:160px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.icono{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+/* BLOQUE DERECHO */
+
+.quienes-derecha{
+    width:40%;
+    display:flex;
+    align-items:center;
+}
+
+.info-box{
+    background:rgba(44, 62, 122, 0.85);
+    color:white;
+    padding:40px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.info-box p{
+    margin-bottom:20px;
+}
 
