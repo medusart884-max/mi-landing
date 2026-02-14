@@ -7,53 +7,91 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ================= HEADER ================= */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1c2b4a;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #ff6600;
+}
+
 /* ================= HERO ================= */
+
+body {
+    padding-top: 80px;
+}
 
 .hero {
     height: 100vh;
-    background: linear-gradient(
-        rgba(0, 0, 40, 0.6),
-        rgba(0, 0, 40, 0.6)
+    background-image: linear-gradient(
+        rgba(20, 30, 70, 0.7),
+        rgba(20, 30, 70, 0.7)
     ),
-    url("img/gero.jpg") no-repeat center center;
+    url("img/hero.jpg");
 
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     display: flex;
     align-items: center;
-    padding-left: 10%;
+    padding: 0 80px;
     color: white;
+    position: relative;
 }
 
 .hero-content {
     max-width: 600px;
 }
 
-.hero h1 {
+.hero-content h1 {
     font-size: 48px;
     line-height: 1.2;
     margin-bottom: 20px;
 }
 
-.hero p {
+.hero-content p {
     font-size: 18px;
     margin-bottom: 30px;
-    line-height: 1.6;
 }
 
-/* ================= BOTÓN ================= */
-
 .btn-naranja {
-    background-color: #f37021;
+    background: #ff6600;
     color: white;
-    padding: 14px 28px;
+    padding: 12px 28px;
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
     transition: 0.3s;
-    display: inline-block;
 }
 
 .btn-naranja:hover {
-    background-color: #d85c10;
-    transform: translateY(-3px);
+    background: #e65c00;
 }
+
