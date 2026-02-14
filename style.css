@@ -7,3 +7,25 @@
         <a href="#" class="btn-naranja">Conoce más</a>
     </div>
 </section>
+/* Centrar mejor en pantallas grandes */
+.hero {
+    padding-left: 10%;
+}
+
+/* Mejorar lectura */
+.hero h1 {
+    text-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.hero p {
+    text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* Botón más profesional */
+.btn-naranja {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.btn-naranja:hover {
+    transform: translateY(-3px);
+}
