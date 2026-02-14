@@ -321,6 +321,42 @@
 .innovacion-texto p{
     line-height:1.6;
 }
+/* ================= SECCION FINAL ================= */
+
+.final{
+    margin-top:0;
+}
+
+/* Barra superior azul */
+
+.barra-redes{
+    background:#2c3470;
+    color:white;
+    display:flex;
+    justify-content:center;
+    gap:200px;
+    padding:20px 0;
+    font-weight:500;
+}
+
+/* Fondo con paisaje */
+
+.final-hero{
+    background-image:url("img/paisaje.jpg");
+    background-size:cover;
+    background-position:center;
+    height:400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}
+
+/* Logo gigante */
+
+.logo-grande{
+    width:500px;
+}
 
 
 
